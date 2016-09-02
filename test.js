@@ -21,3 +21,8 @@ test('converts to seconds', t => {
 	t.is(fn('01:02:03'), 3600 + 120 + 3);
 	t.is(fn('02:10:59'), 7200 + 600 + 59);
 });
+
+test('strips comma-delimited millseconds', t => {
+	t.is(fn('00:00:01,345'), 1);
+	t.is(fn('00:00:59,345'), 59);
+});

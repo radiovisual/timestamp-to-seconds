@@ -4,6 +4,12 @@ module.exports = input => {
 		throw new TypeError(`timestamp-to-seconds expected a string, got ${typeof input}`);
 	}
 
+	const commaIndex = input.indexOf(',');
+
+	if (commaIndex > -1) {
+		input = input.substr(0, commaIndex);
+	}
+
 	const times = input.split(':').map(number => {
 		return parseInt(number, 10);
 	});
