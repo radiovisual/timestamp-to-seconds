@@ -1,0 +1,40 @@
+{
+  "name": "timestamp-to-seconds",
+  "version": "0.0.1",
+  "description": "Convert an HH:MM:SS timestamp to seconds.",
+  "license": "MIT",
+  "repository": "radiovisual/timestamp-to-seconds",
+  "author": {
+    "name": "Michael Wuergler",
+    "email": "wuergler@gmail.com",
+    "url": "numetriclabs.com"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "HH:MM:SS",
+    "secs",
+    "seconds",
+    "to",
+    "timestamp",
+    "seconds",
+    "minute",
+    "hours",
+    "convert"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^0.15.2",
+    "xo": "^0.16.0"
+  },
+  "xo": {
+    "esnext": true
+  }
+}
