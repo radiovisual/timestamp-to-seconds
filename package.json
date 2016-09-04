@@ -1,6 +1,6 @@
 {
   "name": "timestamp-to-seconds",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Convert a timestamp string to seconds. '00:01:02' → 62",
   "license": "MIT",
   "repository": "radiovisual/timestamp-to-seconds",
