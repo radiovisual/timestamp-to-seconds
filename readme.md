@@ -1,6 +1,6 @@
 # timestamp-to-seconds [![Build Status](https://travis-ci.org/radiovisual/timestamp-to-seconds.svg?branch=master)](https://travis-ci.org/radiovisual/timestamp-to-seconds)
 
-> Convert an HH:MM:SS timestamp to seconds.
+> Convert a timestamp string to seconds. `'00:01:02'` → `62`
 
 
 ## Install
