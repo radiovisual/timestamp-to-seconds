@@ -31,7 +31,7 @@ Returns the timestamp's total number of seconds.
 
 Type: `string`
 
-The timestamp in the format of `HH:MM:SS` you want to convert to seconds.
+The timestamp in the format of `HH:MM:SS` that you want to convert to seconds.
 
 
 ## License
